@@ -31,6 +31,9 @@ namespace NodeInserts.Models
         public int GetMonth() { return month; }
         public int GetYear() { return year; }
 
-
+        public override string ToString()
+        {
+            return $"[Parent 1: {parent1}, Parent 2: {parent2}, Date: {day}.{month}.{year}]";
+        }
     }
 }

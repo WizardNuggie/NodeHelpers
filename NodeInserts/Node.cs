@@ -49,9 +49,9 @@ namespace NodeClass
         public override string ToString()
         {
             if(this.next!=null)
-            return $"[{this.value}]->{this.next}";
+            return $"[{this.value}]\n\t\t\t↓\n{this.next}";
             
-            return $"[{this.value}]->null";
+            return $"[{this.value}]\n\t\t\t↓\n\t\t       null";
 
         }
     }
