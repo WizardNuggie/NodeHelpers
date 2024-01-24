@@ -21,7 +21,6 @@ namespace NodeInserts.Models
             this.month = month;    
             this.year = year;
             this.day=day;
-
         }
 
         public string GetParent1()
